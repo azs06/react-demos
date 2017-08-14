@@ -13,9 +13,18 @@
 <script src="../build/react.js"></script>
 <script src="../build/react-dom.js"></script>
 <script type="text/babel">
-//Render JSX
+  /***
+  Use JavaScript inside JSX
+  You could use JavScript inside JSX, to use JS inside JSX, you have to
+  put it within a curly brace.
+  ***/
+  var names = ["Adam", "Jordan", "Phileppe"];
   ReactDOM.render(
-    <h1>Hello, world!</h1>,
+    <div>
+    {
+      names.map((name, index)=> <li key={index}>hello {name}</li>)
+    }
+    </div>,
     document.getElementById('app')
   );
 </script>
