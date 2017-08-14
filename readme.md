@@ -5,5 +5,5 @@ Like the original idea, these demos are written in simple and clear style.
 ## How to use
 First clone this repo
 ```
- git@github.com
+ git@github.com:azs06/react-demos.git
 ```
